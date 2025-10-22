@@ -14,7 +14,7 @@ const renderMovie = (movie) => {
 
     if (movie.Response === "False") {
         moviesWrapper.innerHTML = `
-        <h2 class="text-center text-danger">${movie.Error}</h2>`;
+        <h2 class="text-center text-danger">Ma'lumot topilmadi, qaytadan urunb koring</h2>`;
         return;
     }
 
